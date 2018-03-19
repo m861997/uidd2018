@@ -80,6 +80,16 @@ body {
 	color:#ffffff;
 	font-size:150%;
 }
+.ducati {
+	background-image: url("ducati.png");
+	background-size:400px 400px;
+	background-repeat: no-repeat;
+	position:fixed;
+	left:25%;
+	top:30%;
+	width:40%;
+	height:60%;
+}
 
 
 
