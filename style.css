@@ -1,0 +1,96 @@
+body {
+	background:linear-gradient(45deg,#5599FF,#E93EFF);
+
+}
+#rightside {
+	background-color:#FFFFFF;
+	width: 5%;
+	height:100%;
+	position: fixed;
+	right: 0%; top : 0%;
+	background-repeat: no-repeat ;
+	background-size:40px 40px;
+	background-image: url("menu-icon.png"),url("twitter-icon.png"),url("fb-icon.png"),url("ig-icon.png");
+	background-position: center 5%,center 70%,center 80%,center 90%;
+}
+.pagedot {
+	width:1vw;
+	height:1vw;
+	position:fixed;
+	border-radius:1vw;
+	background-color:#DDDDDD;
+	left: 4%;
+	opacity: 0.75;
+}
+#dot1 {
+	top:42%;
+}
+#dot2 {
+	top:46%;
+}
+#dot3 {
+	top:50%;
+}
+#dot4 {
+	top:54%;
+}
+#dot5 {
+	top:58%;
+}
+.topic1 {
+	left:15%;
+	top:5%;
+	font-family:consolas;
+	font-size:250%;
+	font-weight:bold;
+	color:#ffffff;
+	position:fixed;
+
+}
+.topic2 {
+	right:30%;
+	top:20%;
+	font-family:consolas;
+	font-size:600%;
+	font-weight:bold;
+	color:#ffffff;
+	position:fixed;
+}
+.topicimg {
+	background-image: url("camellia-icon.png");
+	background-size:50px 50px;
+	width:10%;
+	height:10%;
+	position:fixed;
+	background-repeat: no-repeat ;
+	left:10%;
+	top:10%;
+}
+.button {
+	width:10%;
+	height:10%;
+	border-radius:30%;
+	border:5px solid white;
+	text-align:center;
+	position:fixed;
+	right:37%;
+	top:50%;
+	font-family:consolas;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:150%;
+}
+.ducati {
+	background-image: url("ducati.png");
+	background-size:400px 400px;
+	background-repeat: no-repeat;
+	position:fixed;
+	left:25%;
+	top:30%;
+	width:40%;
+	height:60%;
+}
+
+
+
+
