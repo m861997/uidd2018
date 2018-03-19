@@ -63,7 +63,8 @@ body {
 	height:10vh;
 	position:fixed;
 	background-repeat: no-repeat ;
-	left:10vh;
+	left:10vw;
+	top:5vw;
 }
 .button {
 	width:10vw;
