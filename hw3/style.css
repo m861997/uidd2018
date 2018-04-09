@@ -1,0 +1,169 @@
+body {
+	
+}
+
+#bg0{
+	background-image: url("bg0.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	z-index:0;
+	top:0;
+	left:0;
+	position:absolute;
+}
+#bg1{	
+	opacity:0;
+	background-image: url("bg1.png");
+	background-size:100vw 100vh;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	z-index:1;
+	top:0;
+	left:0;
+	position:absolute;
+}
+#river{	
+	opacity:0;
+	background-image: url("river.png");
+	background-size:100vw 100vh;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	z-index:2;
+	bottom:5vh;
+	left:16vw;
+	position:absolute;
+}
+#h1{
+	opacity:0;
+	background-image: url("h1.png");
+	background-size:80% 80%;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100vw;
+	z-index:1;
+	position:absolute;
+	right:20vw;
+	bottom:10vh;
+}
+#h2{
+	opacity:0;
+	background-image: url("h2.png");
+	background-size:80% 80%;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100vw;
+	z-index:1;
+	position:absolute;
+	right:18vw;
+
+}
+#bird{
+	opacity:0;
+	background-image: url("bird.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:35vh;
+	width:35vw;
+	z-index:2;
+	position:absolute;
+	top:50vh;
+	cursor:pointer;
+}
+#bird:hover{
+	background-size:110% 110%;\
+
+}
+#house{
+	opacity:0;
+	background-image: url("house.png");
+	background-size:40vw 50vh;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	z-index:3;
+	top:14vh;
+	left:54.3vw;
+	position:absolute;
+}
+/*------*/
+#bg2{
+	opacity:0;
+	background-image: url("bg2.png");
+	background-size:100vw 100vh;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	z-index:0;
+	top:0;
+	left:0;
+	position:absolute;
+}
+#h3{
+	opacity:0;
+	background-image: url("h3.png");
+	background-size:75% 75%;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100vw;
+	z-index:0;
+	position:absolute;
+	right:17vw;
+	bottom:15vh;
+}
+#h4{
+	opacity:0;
+	background-image: url("h4.png");
+	background-size:40% 40%;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100vw;
+	z-index:0;
+	position:absolute;
+	left:17vw;
+`	top:0vh;
+
+}
+#shadow{
+	opacity:0;
+	background-image: url("shadow.png");
+	background-size:30vw 30vh;
+	background-repeat:no-repeat;
+	height:30%;
+	width:30%;
+	z-index:4;
+	top:48vh;
+	right:10vw;
+	position:absolute;
+}
+#temple{
+	 opacity:0;
+	 background-image: url("temple.png");
+	 background-size:33vw 30vh;
+	 background-repeat:no-repeat;
+	 height:30%;
+	 width:38%;
+	 z-index:5;
+	 bottom:32vh;
+	 right:4.5vw;
+	 position:absolute;
+}
+@keyframes fadein{
+from{}
+to{opacity:1;}
+}
+@keyframes flyindown1{
+from{bottom:30vh;}
+to{bottom:0vh;opacity:1;}
+}
+@keyframes flyindown2{
+from{top:0vh;}
+to{top:10vh;opacity:1;}
+}
+@keyframes flyinright{
+from{left:-30vh;}
+to{left:0vh;opacity:1;}
+}
